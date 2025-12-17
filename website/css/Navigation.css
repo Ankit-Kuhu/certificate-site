@@ -1,0 +1,173 @@
+<style>
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #000;
+    }
+
+
+    .header {
+  background-color: #00768f;
+  color: white;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center; /* center contents horizontally */
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.header-logo img {
+  height: 80px;
+  width: auto;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #f2f0f6;
+}
+
+.header-text p {
+  margin: 2px 0 0;
+  font-size: 1.1em;
+}
+
+
+/* navbar code start */
+.navbar {
+  background-color: #771b83;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.navbar a {
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #1fbdec;
+}
+
+/* Search styling */
+.search-container {
+  position: relative;
+}
+
+#searchInput {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+#suggestions {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  width: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+  z-index: 10;
+}
+
+#suggestions div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#suggestions div:hover {
+  background: #f1f1f1;
+}
+
+/* navbar code end */
+    
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    color: #2a0073;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: #3300cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hindi-note {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    list-style: disc;
+    font-size: 15px;
+    color: #333;
+}
+
+.admit-header {
+    background-color: #a10000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.admit-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.admit-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.notice {
+  background-color: #fff9c4;
+  border-left: 5px solid #fbc02d;
+  border-right: 5px solid #fbc02d;
+  border-top: 5px solid #fbc02d;
+  border-bottom: 5px solid #fbc02d;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.notice h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #e65100;
+}
